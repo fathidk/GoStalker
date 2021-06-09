@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   $Language    = filter_var($_POST['language'], FILTER_SANITIZE_STRING);
 
-  $forbiddenNames  = array("settings", "setting", "gostalker", "abdelrahmanSamir", "Semary", "lesemary", "chat", "messages", "init", "login", "signup", "forget-password", "logout", "myprofile", "search", "stalkers", "userprofile", "dashboard", "connect", "confirm-email", "conditions", "blocked-users", "anonymousmessages", "404", "change-email", "change-password", "home", "sendmessages", "notification", "votes");
+  $forbiddenNames  = array("settings", "setting", "gostalker", "chat", "messages", "init", "login", "signup", "forget-password", "logout", "myprofile", "search", "stalkers", "userprofile", "dashboard", "connect", "confirm-email", "conditions", "blocked-users", "anonymousmessages", "404", "change-email", "change-password", "home", "sendmessages", "notification", "votes");
 
   // validate the form
   $formErrors = array();
