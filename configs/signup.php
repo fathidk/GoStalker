@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     /*
                Send Mail with token link
                */
-    Mail::setFrom('Welcome to GoStalker!', 'You are successfully resgistered, Confirm Your Email :<br>Click the link below to verify your account.<br>http://localhost/GoStalker/confirm-email.php?confirmcode=' . $ConfirmCode . '<br>Thank you for joining and making GoStalker part of your life. If you have any problem, help or idea just contact us: Mail: GoStalkerInc@gmail.com', $email);
+    Mail::setFrom('Welcome to GoStalker!', 'You are successfully registered, Confirm Your Email :<br>Click the link below to verify your account.<br>http://localhost/GoStalker/confirm-email.php?confirmcode=' . $ConfirmCode . '<br>Thank you for joining and making GoStalker part of your life. If you have any problem, help or idea just contact us: Mail: GoStalkerInc@gmail.com', $email);
     /*
                  ((Login after signup))
                */
